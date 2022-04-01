@@ -1,0 +1,30 @@
+内存分配函数
+<stdlib.h>
+malloc函数 ==> 分配内存块, 但是不对内存块进行初始化
+void *malloc(size_t size);
+
+calloc函数 ==> 分配内存块, 并且对内存块进行清零
+void *calloc(size_t nmemb, size_t size);
+
+realloc函数 ==> 调整先前分配的内存块大小
+void *realloc(void *ptr, size_t size);
+
+free函数 ==> 释放p所指向的内存块
+void free(void *ptr);
+
+
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+声明结点类型
+struct node{
+    int value;
+    struct node *next;
+};
+成员next具有struct node *类型, 这就意味着它能存储一个指向node结构的指针.
+顺便说一下, 关于名字node没有任何特殊含义, 只是一个普通的结构标记.
+
+
+
+
+
