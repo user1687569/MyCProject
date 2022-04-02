@@ -8,11 +8,9 @@ int main()
     int result_num, result_denom;
 
     printf("Enter first fraction: ");
-    // scanf("%d/%d", &num1, &denom1);
     scanf("%d %d", &num1, &denom1);
 
     printf("Enter second fraction: ");
-    // scanf("%d/%d", &num2, &denom2);
     scanf("%d %d", &num2, &denom2);
 
     result_num = num1 * denom2 + num2 * denom1;

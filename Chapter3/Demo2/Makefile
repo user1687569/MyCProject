@@ -3,6 +3,7 @@ CXX = gcc
 
 OBJ_DIR = obj
 
+CXXFLAGS += -Wall
 
 TARGET := cProject.exe
 
