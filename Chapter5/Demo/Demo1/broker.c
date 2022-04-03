@@ -1,7 +1,9 @@
-//Copyright (c) 2022 user1687569
+/*
+ *Copyright (c) 2022 user1687569
+ */
 #include <stdio.h>
 
-int main()
+int main(void)
 {
     float commission, value;
 

@@ -3,7 +3,6 @@ CXX = gcc
 
 OBJ_DIR = obj
 
-
 TARGET := cProject.exe
 
 OBJS := $(patsubst %.c, $(OBJ_DIR)/%.o, $(notdir $(wildcard *.c)))
