@@ -38,7 +38,6 @@ int main()
     }
 
     printf("Wins: %d  Losses: %d\n", winCount, loseCount);
-
     return 0;
 }
 
