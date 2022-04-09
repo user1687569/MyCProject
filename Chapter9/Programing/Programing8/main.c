@@ -13,11 +13,17 @@ int main()
 {
     char ch;
     bool result = false;
+    int winCount = 0;
+    int loseCount = 0;
     srand((unsigned) time(NULL));
 
     for(;;)
     {
         result = play_game();
+        if(result == true)
+            winCount++;
+        else
+            loseCount++;
         printf("%s\n\n", result == true ? "You win!" : "You lose!");
         while (getchar() != '\n')
             ;
@@ -30,6 +36,8 @@ int main()
         else
             break;
     }
+
+    printf("Wins: %d  Losses: %d\n", winCount, loseCount);
 
     return 0;
 }
