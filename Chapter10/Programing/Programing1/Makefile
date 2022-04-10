@@ -3,7 +3,7 @@ CXX = gcc
 
 OBJ_DIR = obj
 
-CXXFLAGS = -Wall -W -pedantic -ansi -Wvla -std=c99
+CXXFLAGS += -Wall -std=c99
 
 TARGET := cProject.exe
 
